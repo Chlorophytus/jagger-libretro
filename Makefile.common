@@ -1,2 +1,2 @@
-SOURCES_C   := 
-SOURCES_CXX := $(CORE_DIR)/libretro.c
+SOURCES_C   :=
+SOURCES_CXX := $(CORE_DIR)/libretro.c $(CORE_DIR)/m68k.c $(CORE_DIR)/runloop.c

@@ -40,7 +40,7 @@ else ifneq ($(findstring MINGW,$(shell uname -a)),)
 endif
 
 CORE_DIR    += .
-TARGET_NAME := skeleton
+TARGET_NAME := jagger
 LIBM		    = -lm
 
 ifeq ($(ARCHFLAGS),)
