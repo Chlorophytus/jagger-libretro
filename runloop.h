@@ -4,7 +4,6 @@
 #define JAGGER_RUNLOOP_H
 
 typedef struct {
-    jagger_m68k_t *manager;
 } jagger_runloop_t;
 
 void jagger_runloop_init(jagger_runloop_t **);
